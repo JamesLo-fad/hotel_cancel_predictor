@@ -31,6 +31,9 @@ def machine_learning_model():
     else:
         return "Hotel type must be [city, resort]"
 
+    param_month = int(param_month)
+    param_num = int(param_num)
+
     with open('exported_one_hot.pickle', 'rb') as fp:
         enc = pickle.load(fp)
 
