@@ -3,5 +3,4 @@ flask
 pandas
 numpy
 datetime
-pickle
 request
