@@ -1,4 +1,4 @@
-FROM 3.11-rc-bullseye
+FROM python:3.9-bullseye
 COPY api_app/main.py main.py
 COPY api_app/exported_classifier.pickle exported_classifier.pickle
 COPY api_app/exported_one_hot.pickle exported_one_hot.pickle
