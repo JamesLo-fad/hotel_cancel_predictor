@@ -15,3 +15,5 @@
 2. Bring up the flask app (with `screen` or `nohup` for now)
 3. Config the nginx config such that a request with special path `/api/get_prediction_result` is proxied to the flask app
 4. Restart nginx, and verify the webpage got data from the Flask app
+
+### Part 3, Play with Docker
